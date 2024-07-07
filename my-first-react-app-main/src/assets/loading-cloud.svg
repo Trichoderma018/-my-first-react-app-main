@@ -1,0 +1,110 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cloud {
+      fill: white;
+    }
+    .cloud1 { animation: moveCloud1 3s linear infinite; }
+    .cloud2 { animation: moveCloud2 4s linear infinite; }
+    .cloud3 { animation: moveCloud3 5s linear infinite; }
+    @keyframes moveCloud1 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(20px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes moveCloud2 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(30px); }
+      100% { transform: translateX(0); }
+    }
+    @keyframes moveCloud3 {
+      0% { transform: translateX(0); }
+      50% { transform: translateX(40px); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+  <rect width="100%" height="100%" fill="skyblue"/>
+  <g class="cloud cloud1" transform="translate(0,10)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud2" transform="translate(50,10)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud3" transform="translate(100,10)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud1" transform="translate(150,10)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud2" transform="translate(0,30)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud3" transform="translate(50,30)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud1" transform="translate(100,30)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud2" transform="translate(150,30)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud3" transform="translate(0,50)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud1" transform="translate(50,50)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud2" transform="translate(100,50)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+  <g class="cloud cloud3" transform="translate(150,50)">
+    <circle cx="10" cy="10" r="10"/>
+    <circle cx="25" cy="10" r="10"/>
+    <circle cx="40" cy="10" r="10"/>
+    <circle cx="20" cy="5" r="10"/>
+    <circle cx="30" cy="5" r="10"/>
+  </g>
+</svg>
